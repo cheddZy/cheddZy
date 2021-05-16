@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @cheddZy
-- 👀 I’m interested in making things
-- 🌱 I’m currently learning how to make a killer martini
+- 👀 I’m interested in making some sweet UI/UX. I mainly dabble in design
+- 🌱 I’m currently learning how to make a killer martini and figuring out why css is creating artifacts
 - 📫 How to reach me artcheddzy@gmail.com (business related only)
