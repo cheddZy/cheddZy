@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+<!--    <link rel="stylesheet" href="style.css">   PIT  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+        <title>Button Test</title>
+    </head>
+    <body id="body">
+
+<div class="title">
+        <p id="text" class="title-txt">Buttons Test-bench</p>
+        <p id="cheeky"><a class="cheeky-line" href="https://www.cheddzy.com">by ched</a></p>
+</div>
+<hr width="800px" class="margin">
+<div class="section">
+    <button class="button" type="button" name="button"><p id="text">CLICK ME PLEASE</p></button>
+    <button class="button button-bottom" type="button" name="button"><p id="text">CLICK ME PLEASE</p></button>
+    <button class="button button-bottom" type="button" name="button"><p id="text">CLICK ME PLEASE</p></button>
+        <p class="desc">Work in Progress stuff, all the buttons above are the same.</p>
+</div>
+<hr width="800px">
+<div class="section">
+    <div class="margin colors">
+        <p id="cheeky">colors: </p>
+        <div class="color-master color1"><p id="hex">#C46525</p></div>
+        <div class="color-master color3"><p id="hex">#2C2626</p></div>
+        <div class="color-master color2"><p id="hex">#565252</p></div>
+        <div class="color-master color4"><p id="hex">#3c332c</p></div>
+        <div class="color-master color5 dark-text"><p id="hex">#FDEECE</p></div>
+    </div>
+</div>
+<hr width="800px">
+<footer class="footer">cheddZy © 2021</footer>
+    </body>
+</html>
+<style media="screen">
+    body {
+        background-color: #22201E;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #text {
+        margin: 10px 50px 10px 50px;
+        font-family: Oswald, sans-serif;
+    }
+
+    #hex {
+        font-family: oswald, sans-serif;
+        text-align: center;
+    }
+
+    #cheeky {
+        font-family: Inter, sans-serif;
+        text-align: center;
+        color: #C46525;
+    }
+
+
+    /*---------------------------------------*/
+
+    .desc {
+        color: #7d7474;
+        font-family: Inter, Sans-serif;
+        text-align: center;
+    }
+
+    .cheeky-line   {
+        text-decoration: underline;
+        text-decoration-style: dotted;
+        color: #C46525
+    }
+
+    .cheeky-line:hover {
+        color: #d67431;
+    }
+
+    .margin {
+        margin-top: 50px;
+        display: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .colors {
+        flex-direction: row;
+    }
+
+    .color-master {
+        border-radius: 10px;
+        border-color: #363636;
+        border-width: 1px;
+        border-style: solid;
+        width: 100px;
+        height: 50px;
+    }
+
+            .color1 {
+                background-color: #C46525;
+                margin-left: 10px;
+                color: white;
+            }
+            .color2 {
+                background-color: #565252;
+                margin-left: 5px;
+                margin-right: 5px;
+                color: white;
+            }
+            .color3 {
+                background-color: #2C2626;
+                color: white;
+            }
+            .color4 {
+                background-color: #3c332c;
+                margin-left: 5px;
+                margin-right: 5px;
+                color: white;
+            }
+            .color5 {
+                background-color: #FDEECE;
+                color: white;
+            }
+
+        .dark-text {
+            color: #2C2626;
+        }
+
+    .section {
+        display: inherit;
+        flex-direction: column;
+    }
+
+
+    .button {
+        align-self: center;
+        background-color: #2C2626;
+        color: #FDEECE;
+                font-size: 24px;
+        border-radius: 10px;
+        border-color: #565252;
+        width: 400px;
+        border-style: solid;
+        transition: 0.05s;
+        transition-timing-function: ease-in-out;
+    }
+
+
+    .button-bottom {
+        margin-top: 15px;
+    }
+
+    .button:hover {
+        cursor: pointer;
+        background-color: #3c332c;
+        color: #C46525;
+        border-radius: 11px;
+    }
+
+    .button:active {
+
+        cursor: pointer;
+        background-color: #C46525;
+        color: #22201E;
+        border-radius: 15px;
+
+    }
+
+    .title {
+        display: block;
+                color: #FDEECE;
+    }
+    .title-txt {
+
+        font-size: 48px;
+
+    }
+
+</style>
