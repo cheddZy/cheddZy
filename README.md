@@ -1,4 +1,7 @@
-- 👋 Hi, I’m @cheddZy
-- 👀 I’m interested in making some sweet UI/UX. I mainly dabble in design
-- 🌱 I’m currently learning how to make a killer martini and figuring out why css is creating artifacts
-- 📫 How to reach me artcheddzy@gmail.com (business related only)
+## Welcome to my profile
+Frontend Designer & Developer. I like video games.
+
+Reach me at **artcheddzy@gmail.com** or throw me a message anywhere else.
+
+#### My Projects:
+* _(None public right now. Come back later!)_
